@@ -1,0 +1,700 @@
+*,
+ul {
+  margin: 0;
+  padding: 0;
+  font-family: "Ubuntu", sans-serif;
+}
+
+/*...................................................... NAVBAR CSS ..............................................................*/
+
+#nav-bar {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #dd7973;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+#nav-bar-hamburger {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: #dd7973;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+#nav-logo {
+  font-size: 25px;
+  margin: 2px 10px;
+  font-family: "Lobster Two", cursive;
+  text-decoration: none;
+}
+#nav-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 3px 15px;
+}
+#nav-list-hamburger {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 10px 15px;
+}
+.nav-list-li {
+  margin: 7px;
+}
+.nav-list-elements {
+  text-decoration: none;
+  padding: 12px;
+  font-size: 18px;
+  cursor: pointer;
+}
+.nav-list-elements:hover {
+  opacity: 0.7;
+}
+.hamburger-d {
+  width: 35px;
+  height: 7px;
+  margin-bottom: 2px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: white;
+}
+#hamburger {
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 4%;
+  display: none;
+  margin-top: 2px;
+}
+
+/*...................................................... ALERT CSS..............................................................*/
+
+#alert_div {
+  height: 35px;
+  font-size: 15px;
+  text-align: center;
+  padding: 5px 5px;
+}
+
+/*...................................................... TEXT AREA CSS ..............................................................*/
+#mytext_holder1,
+#mytext_holder2 {
+  display: flex;
+  box-shadow: 0px 0px 20px -3px grey;
+  margin-bottom: 10px;
+}
+.btn-copy {
+  width: 70px;
+  height: 30px;
+  border-radius: 10px;
+  border: 0.5px solid grey;
+  margin: 4px 4px;
+  font-size: 13px;
+}
+.btn-copy:hover {
+  box-shadow: 0px 0px 0.5px 0.5px grey;
+}
+#mycontent_holder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0px;
+}
+#mytext1,
+#mytext2 {
+  width: 920px;
+  height: 155px;
+  text-align: center;
+  padding-left: 40px;
+  border: 0px;
+}
+textarea:focus {
+  outline: none;
+}
+#mybutton_holder {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+#mycount_holder {
+  margin-top: 15px;
+}
+#mypreview_holder {
+  display: flex;
+  flex-wrap: wrap;
+  width: 200px;
+  text-align: center;
+}
+#btn_upper,
+#btn_lower,
+#btn_reset,
+#btn_replace,
+#btn_copy {
+  border: 0px;
+  width: 200px;
+  height: 40px;
+  border-radius: 10px;
+  margin: 5px 10px;
+}
+#btn_replace {
+  margin: 0px 8px;
+}
+#btn_upper:hover,
+#btn_lower:hover,
+#btn_reset:hover,
+#btn_replace:hover,
+#btn_copy:hover {
+  box-shadow: 0px 3px 10px 0px grey;
+}
+#myreplace_holder {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 5px;
+}
+#my-replace-text1,
+#my-replace-text2 {
+  width: 180px;
+  height: 40px;
+  text-align: center;
+  border: 1px solid grey;
+  border-radius: 10px;
+}
+
+/*...................................................... ABOUT US CSS ..............................................................*/
+
+#about_h1 {
+  text-align: center;
+  margin: 20px 0px;
+  color: darkgreen;
+  text-shadow: 2px 3px lightgray;
+}
+#about_section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.about_div {
+  width: 700px;
+  height: 50px;
+  text-align: center;
+  padding: 10px 10px;
+  margin-top: 20px;
+  cursor: pointer;
+  border: 1px solid white;
+  font-size: 15px;
+  transition: font-size 0.2s linear 0s;
+}
+
+.about_div:hover {
+  border: 1px solid black;
+  border-radius: 15px;
+  font-size: 18px;
+}
+.about_detail {
+  width: 700px;
+  padding: 10px 10px;
+}
+
+/*...................................................... CONTACT US CSS ..............................................................*/
+
+.contact_h4,
+#contact_h3,
+#contact_h5 {
+  text-align: center;
+  text-shadow: 2px 3px lightgray;
+}
+.contact_h4 {
+  margin: 20px 0px;
+  color: darkgreen;
+}
+#contact_h5,
+#contact_h3 {
+  margin: 0px;
+  padding: 5px 0px;
+}
+#contact_sign {
+  font-family: "Sassy frass", cursive;
+  text-align: center;
+  font-size: 40px;
+  padding: 10px 0px;
+  font-weight: bold;
+  color: #344b9d;
+}
+#contact_section {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 40px 0px;
+}
+
+.contact_logo {
+  width: 120px;
+  height: 120px;
+  transition: transform 0.5s linear 0s;
+  margin-left: 10px;
+}
+
+#contact4 {
+  width: 160px;
+  height: 110px;
+  margin: 0px;
+}
+.contact_logo:hover {
+  transform: rotateZ(360deg);
+  opacity: 0.8;
+}
+@media screen and (max-width: 560px) {
+  .contact_h4 {
+    font-size: 18px;
+  }
+  #contact_h3 {
+    font-size: 20px;
+  }
+  #contact_h5 {
+    font-size: 15px;
+  }
+  .contact_logo {
+    width: 90px;
+    height: 90px;
+  }
+  #contact4 {
+    width: 130px;
+    height: 85px;
+  }
+}
+
+/*...................................................... MEDIA QUERY ..............................................................*/
+
+@media screen and (max-width: 1000px) {
+  #mytext1 {
+    width: 630px;
+    height: 200px;
+  }
+  #mytext2 {
+    width: 630px;
+    height: 200px;
+  }
+  #btn_upper {
+    font-size: 14px;
+    width: 150px;
+    height: 35px;
+  }
+  #btn_lower {
+    font-size: 14px;
+    width: 150px;
+    height: 35px;
+  }
+  #btn_reset {
+    font-size: 14px;
+    width: 150px;
+    height: 35px;
+  }
+  #btn_replace {
+    font-size: 14px;
+    width: 150px;
+    height: 35px;
+  }
+  #btn_copy {
+    font-size: 14px;
+    width: 150px;
+    height: 35px;
+  }
+  #my-replace-text1 {
+    font-size: 14px;
+    width: 150px;
+    height: 35px;
+  }
+  #my-replace-text2 {
+    font-size: 14px;
+    width: 150px;
+    height: 35px;
+  }
+}
+@media screen and (max-width: 710px) {
+  #mytext1 {
+    width: 470px;
+    height: 200px;
+  }
+  #mytext2 {
+    width: 470px;
+    height: 200px;
+  }
+  #btn_upper {
+    font-size: 13px;
+    width: 110px;
+    height: 35px;
+  }
+  #btn_lower {
+    font-size: 13px;
+    width: 110px;
+    height: 35px;
+  }
+  #btn_copy {
+    font-size: 13px;
+    width: 110px;
+    height: 35px;
+  }
+  #btn_reset {
+    font-size: 13px;
+    width: 110px;
+    height: 35px;
+  }
+  #btn_replace {
+    font-size: 13px;
+    width: 110px;
+    height: 35px;
+  }
+
+  #my-replace-text1 {
+    font-size: 13px;
+    width: 110px;
+    height: 35px;
+  }
+  #my-replace-text2 {
+    font-size: 13px;
+    width: 110px;
+    height: 35px;
+  }
+}
+@media screen and (max-width: 620px) {
+  #nav-list {
+    display: none;
+  }
+  #hamburger {
+    display: block;
+  }
+}
+@media screen and (max-width: 570px) {
+  #mytext1 {
+    width: 370px;
+    height: 150px;
+  }
+  #mytext2 {
+    width: 370px;
+    height: 150px;
+  }
+  #btn_upper {
+    font-size: 12px;
+    width: 80px;
+    height: 30px;
+  }
+  #btn_lower {
+    font-size: 12px;
+    width: 80px;
+    height: 30px;
+  }
+  #btn_reset {
+    font-size: 12px;
+    width: 80px;
+    height: 30px;
+  }
+  #btn_replace {
+    font-size: 12px;
+    width: 80px;
+    height: 30px;
+  }
+  #btn_copy {
+    font-size: 12px;
+    width: 80px;
+    height: 30px;
+  }
+  #my-replace-text1 {
+    font-size: 12px;
+    width: 80px;
+    height: 30px;
+  }
+  #my-replace-text2 {
+    font-size: 12px;
+    width: 80px;
+    height: 30px;
+  }
+}
+@media screen and (max-width: 450px) {
+  #mytext1 {
+    width: 210px;
+    height: 130px;
+  }
+  #mytext2 {
+    width: 210px;
+    height: 130px;
+  }
+  .btn-copy {
+    width: 45px;
+    height: 20px;
+    font-size: 10px;
+  }
+  #mybutton_holder {
+    justify-content: space-evenly;
+  }
+  #btn_upper {
+    font-size: 13px;
+    width: 100px;
+    height: 35px;
+
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+  }
+  #btn_lower {
+    font-size: 13px;
+    width: 100px;
+    height: 35px;
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+  }
+  #btn_reset {
+    font-size: 13px;
+    width: 100px;
+    height: 35px;
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+  }
+  #btn_copy {
+    font-size: 13px;
+    width: 100px;
+    height: 35px;
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+  }
+  #btn_replace {
+    font-size: 13px;
+    width: 100px;
+    height: 35px;
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+  }
+
+  #my-replace-text1 {
+    font-size: 13px;
+    width: 100px;
+    height: 35px;
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+  }
+  #my-replace-text2 {
+    font-size: 13px;
+    width: 100px;
+    height: 35px;
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+  }
+  #myreplace_holder {
+    margin-top: 15px;
+    justify-content: space-evenly;
+  }
+  #alert_div {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 720px) {
+  .about_div {
+    width: 500px;
+  }
+  .about_detail {
+    width: 500px;
+  }
+}
+@media screen and (max-width: 520px) {
+  .about_div {
+    width: 280px;
+  }
+  .about_detail {
+    width: 280px;
+  }
+}
+
+.btn{
+  background-color: #5dbea3;
+  border: 1px solid #5dbea3;
+
+}
+
+.form-floating{
+  position: relative;
+  width: 500px;
+  margin-top: 20px;
+}
+
+
+
+#floatingInput{
+  padding-left: 40px;
+  padding-top: 30px;
+}
+.search{
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+.audio-div{
+  width: 500px;
+}
+audio{
+   height: 30px;
+}
+
+.meaning-div{
+  width: 500px;
+}
+@media screen and (max-width:700px) {
+
+  .form-floating{
+    width: 300px;
+  }
+  .meaning-div{
+    width: 300px;
+  }
+  .audio-div{
+    width: 300px;
+  }
+}
+
+
+.main-loader{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loader {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+.loader div {
+  position: absolute;
+  border: 4px solid black;
+  opacity: 1;
+  border-radius: 50%;
+  animation: loader-anime 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+}
+.loader div:nth-child(2) {
+  animation-delay: -0.5s;
+}
+@keyframes loader-anime {
+  0% {
+    top: 36px;
+    left: 36px;
+    width: 0;
+    height: 0;
+    opacity: 0;
+  }
+  4.9% {
+    top: 36px;
+    left: 36px;
+    width: 0;
+    height: 0;
+    opacity: 0;
+  }
+  5% {
+    top: 36px;
+    left: 36px;
+    width: 0;
+    height: 0;
+    opacity: 1;
+  }
+  100% {
+    top: 0px;
+    left: 0px;
+    width: 72px;
+    height: 72px;
+    opacity: 0;
+  }
+}
+
+
+.error-img{
+  width: 350px;
+}
+
+
+
+
+
+
+.form-select{
+  width: 250px;
+}
+.select-div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width:700px) {
+
+  .select-div{
+    flex-direction: column;
+  }
+}
+
+.text-holder{
+  height: 150px;
+}
+
+.translate-loader-div{
+  height: 80px;
+}
+
+
+.text-holder-div{
+  position: relative;
+}
+.copy-btn{
+  position: absolute;
+  right: 14%;
+  top: 14%;
+  cursor: pointer;
+}
+.copy-btn:hover{
+  opacity: 0.7;
+}
+
+.home-main-div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.home-main-div div{
+
+  width: 250px;
+  height: 270px;
+  margin: 10px 30px;
+
+}
+.home-main-div div img{
+  width: 75px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.home-main-div div p{
+  font-size: 14px;
+  text-decoration: none;
+}
+Link{
+  text-decoration: none;
+  color: black;
+}
